@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --primary: #9c1de7;
+    --secondary: #303a52;
+    --danger:#fc5185;
+    --main-font:"montserrat" , "sans-serif";
+}
+
+*{
+    font-family: var(--main-font);
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+.form-div{
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 25px;
+    background-color:gainsboro;  
+}
+.form-title{
+    text-align: center;
+    font-size: 25px;
+    background-color:rgb(75, 49, 49);
+    padding: 25px;
+    border: 1px solid black;
+    color: white;
+}
+.input-div{
+    margin-bottom: 15px;
+}
+
+.input-label{
+display: inline-block;
+margin-bottom: 5px;
+}
+.form-input {
+display: block;
+width: 100%;
+padding: 10px 15px;
+border-radius: 5px;
+border: 1px solid black;
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: 14px;
+}
+body{
+    background-color: lightskyblue;
+}
